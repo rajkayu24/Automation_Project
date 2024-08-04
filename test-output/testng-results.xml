@@ -1,101 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T18:50:43 IST" name="Default suite" finished-at="2024-08-01T18:50:43 IST" duration-ms="153">
+  <suite started-at="2024-08-02T21:47:33 IST" name="Default suite" finished-at="2024-08-02T21:47:34 IST" duration-ms="215">
     <groups>
     </groups>
-    <test started-at="2024-08-01T18:50:43 IST" name="Default test" finished-at="2024-08-01T18:50:43 IST" duration-ms="153">
-      <class name="softAndHardAssertion.SoftAssertion">
-        <test-method signature="softAssertionTest1()[pri:0, instance:softAndHardAssertion.SoftAssertion@515c6049]" started-at="2024-08-01T18:50:43 IST" name="softAssertionTest1" finished-at="2024-08-01T18:50:43 IST" duration-ms="23" status="FAIL">
-          <exception class="java.lang.Error">
+    <test started-at="2024-08-02T21:47:33 IST" name="Default test" finished-at="2024-08-02T21:47:34 IST" duration-ms="215">
+      <class name="testNg_Programs.TestngAttributesTest">
+        <test-method signature="test1()[pri:0, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:33 IST" name="test1" finished-at="2024-08-02T21:47:33 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1()[pri:0, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:33 IST" name="test1" finished-at="2024-08-02T21:47:33 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1()[pri:0, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:33 IST" name="test1" finished-at="2024-08-02T21:47:33 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:1, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:34 IST" name="test2" finished-at="2024-08-02T21:47:34 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:34 IST" name="test2" finished-at="2024-08-02T21:47:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:1, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:34 IST" name="test3" finished-at="2024-08-02T21:47:34 IST" duration-ms="12" status="PASS">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-softAssert1 cannot be resolved or is not a field
-]]>
+              <![CDATA[Method testNg_Programs.TestngAttributesTest.test3() didn't finish within the time-out 3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-softAssert1 cannot be resolved or is not a field
-
-at softAndHardAssertion.SoftAssertion.softAssertionTest1(SoftAssertion.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNg_Programs.TestngAttributesTest.test3() didn't finish within the time-out 3
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:350)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- softAssertionTest1 -->
-        <test-method signature="softAssertionTest2()[pri:0, instance:softAndHardAssertion.SoftAssertion@515c6049]" started-at="2024-08-01T18:50:43 IST" name="softAssertionTest2" finished-at="2024-08-01T18:50:43 IST" duration-ms="27" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:1, instance:testNg_Programs.TestngAttributesTest@65fb9ffc]" started-at="2024-08-02T21:47:34 IST" name="test3" finished-at="2024-08-02T21:47:34 IST" duration-ms="11" status="PASS">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
+              <![CDATA[Method testNg_Programs.TestngAttributesTest.test3() didn't finish within the time-out 3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at softAndHardAssertion.SoftAssertion.softAssertionTest2(SoftAssertion.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNg_Programs.TestngAttributesTest.test3() didn't finish within the time-out 3
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:350)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- softAssertionTest2 -->
-      </class> <!-- softAndHardAssertion.SoftAssertion -->
+        </test-method> <!-- test3 -->
+      </class> <!-- testNg_Programs.TestngAttributesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
