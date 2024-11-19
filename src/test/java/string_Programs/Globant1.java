@@ -8,6 +8,9 @@ public class Globant1 {
 		int count=0;
 		for(int i=1;i<s.length();i++) {
 			count++;
+		
+			if(	s.charAt(i+1)== ' ' ) {
+				continue;			}
 			
 		}
 System.err.println(count);
